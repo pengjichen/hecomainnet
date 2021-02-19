@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker run -d --name hecomainnetnet1.1 \
+docker run -d --name hecomainnet1.1 \
            -v `pwd`:/root/hecomainnet \
            -p 8555:8545 \
            -p 30313:30303 \
