@@ -9,6 +9,4 @@ docker run -d --name hecomainnet1.1 \
            hecofans/geth:1.1 \
            geth-linux-amd64 --config /root/hecomainnet/config.toml  \
                 --logpath /root/hecomainnet/data/logs \
-                --syncmode full \
-                --gcmode archive \
                 --verbosity 3
